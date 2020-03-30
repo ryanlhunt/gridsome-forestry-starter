@@ -5,6 +5,11 @@ admin_path: "/static/admin"
 webhook_url: 
 sections:
 - type: directory
+  path: CV
+  label: CV
+  create: documents
+  match: "**/*.md"
+- type: directory
   path: projects
   label: Projects
   create: documents
